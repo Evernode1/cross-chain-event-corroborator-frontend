@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  color-scheme: light;
+}
+
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  color: #0f1b1d;
+}
+
+::selection {
+  background-color: rgba(15, 118, 110, 0.25);
+  color: #0f1b1d;
+}
+
+* {
+  scrollbar-color: #aeb9b3 #edf1ee;
+}
+
+/* Witness stamp: lands once when a verdict appears. */
+@keyframes stamp-in {
+  0% {
+    opacity: 0;
+    transform: scale(1.6) rotate(-6deg);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(0.94) rotate(-2deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(-2deg);
+  }
+}
+.stamp-in {
+  animation: stamp-in 0.45s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

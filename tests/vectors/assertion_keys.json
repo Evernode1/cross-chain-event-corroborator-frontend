@@ -1,0 +1,79 @@
+[
+  {
+    "chain": "ethereum",
+    "event_type": "TOKEN_TRANSFER",
+    "tx_hash": "0xabababababababababababababababababababababababababababababababab",
+    "contract_address": "",
+    "expected_from": "",
+    "expected_to": "",
+    "expected_token_id": "",
+    "expected_amount": "",
+    "key": "ethereum:0xabababababababababababababababababababababababababababababababab:06f9044ad01caa2aff17e525b0731547"
+  },
+  {
+    "chain": "ethereum",
+    "event_type": "TOKEN_TRANSFER",
+    "tx_hash": "0xabababababababababababababababababababababababababababababababab",
+    "contract_address": "",
+    "expected_from": "0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+    "expected_to": "",
+    "expected_token_id": "",
+    "expected_amount": "1.5 ETH",
+    "key": "ethereum:0xabababababababababababababababababababababababababababababababab:9bf3e4d6b0f56ba964372acfdb042015"
+  },
+  {
+    "chain": "base",
+    "event_type": "NFT_MINT",
+    "tx_hash": "0x1212121212121212121212121212121212121212121212121212121212121212",
+    "contract_address": "0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+    "expected_from": "",
+    "expected_to": "0xefefefefefefefefefefefefefefefefefefefef",
+    "expected_token_id": "42",
+    "expected_amount": "",
+    "key": "base:0x1212121212121212121212121212121212121212121212121212121212121212:82283ea13dd021eae48618aeb519237e"
+  },
+  {
+    "chain": "polygon",
+    "event_type": "BRIDGE_LOCK",
+    "tx_hash": "0xabababababababababababababababababababababababababababababababab",
+    "contract_address": "",
+    "expected_from": "",
+    "expected_to": "",
+    "expected_token_id": "1",
+    "expected_amount": "2,500 USDC",
+    "key": "polygon:0xabababababababababababababababababababababababababababababababab:adbaa0fdcb94d531f2f993ca656b6372"
+  },
+  {
+    "chain": "arbitrum",
+    "event_type": "BRIDGE_BURN",
+    "tx_hash": "0x1212121212121212121212121212121212121212121212121212121212121212",
+    "contract_address": "",
+    "expected_from": "0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd",
+    "expected_to": "0xefefefefefefefefefefefefefefefefefefefef",
+    "expected_token_id": "",
+    "expected_amount": "10",
+    "key": "arbitrum:0x1212121212121212121212121212121212121212121212121212121212121212:00f3c810989f3194203cf707143d182f"
+  },
+  {
+    "chain": "optimism",
+    "event_type": "GENERIC",
+    "tx_hash": "0xabababababababababababababababababababababababababababababababab",
+    "contract_address": "",
+    "expected_from": "",
+    "expected_to": "",
+    "expected_token_id": "",
+    "expected_amount": "",
+    "key": "optimism:0xabababababababababababababababababababababababababababababababab:5546cea315d63d322427c028a8844c32"
+  },
+  {
+    "chain": "ethereum",
+    "event_type": "GENERIC",
+    "tx_hash": "0xabababababababababababababababababababababababababababababababab",
+    "contract_address": "",
+    "expected_from": "",
+    "expected_to": "",
+    "expected_token_id": "ñ",
+    "expected_amount": "١٢٣ ₿ 🚀",
+    "key": "ethereum:0xabababababababababababababababababababababababababababababababab:2bc8d0bd45a84496b3086ea5da467e73"
+  }
+]
